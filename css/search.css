@@ -1,0 +1,31 @@
+.search-listing{
+    width: 100%;
+    height: auto;
+    padding: 100px 5vw;
+    top: 80px;
+
+}
+.product-container{
+    flex-wrap: wrap;
+}
+.product-card{
+    margin: 20px 0px;
+    width: 30%;
+    border:10px solid #f2f2f2 !important;
+
+}
+.product-price{
+    position: absolute;
+    color: #fff;
+    font-family: 'lato',sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: capitalize;
+    font-size: 50px;
+    opacity: 0;
+    transition: .5s;
+}
+.product-card:hover .product-price{
+    opacity: 1;
+}
