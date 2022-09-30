@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <links
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <title>Product Page</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg">
+      <ul class="links-container">
+        <li class="link-items"><a href="#" class="link">Home</a></li>
+        <li class="link-items"><a href="#" class="link">Product</a></li>
+        <li class="link-items"><a href="#" class="link">About</a></li>
+        <li class="link-items"><a href="#" class="link">Contact</a></li>
+      </ul>
+      <div class="user-interaction">
+        <div class="cart">
+          <img src="img/cart.png" class="cart-icon" alt="image not found" />
+          <span class="cart-item-count">00</span>
+        </div>
+        <div class="user">
+          <img src="img/user.png" class="user-icon" alt="image not found" />
+        </div>
+      </div>
+    </nav>
+    <section class="product-section">
+      <img
+        src="img/product-image.png"
+        alt="Image not found"
+        class="product-image"
+      />
+      <div class="product-detail">
+        <h1 class="product-title">Premium sofa</h1>
+        <p class="product-des">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae beatae
+          sapiente quibusdam similique, et eius.
+        </p>
+        <div class="rating">
+          <img class="star" src="img/fill star.png" alt="" />
+          <img class="star" src="img/fill star.png" alt="" />
+
+          <img class="star" src="img/fill star.png" alt="" />
+
+          <img class="star" src="img/fill star.png" alt="" />
+          <img class="star" src="img/no fill star.png " alt="" />
+          <span class="rating-count">4093 reviews</span>
+        </div>
+        <p class="price">$499</p>
+        <div class="btn-container">
+          <button class="product-btn buy-btn">Buy Now</button>
+          <button class="product-btn cart-btn">Add to cart</button>
+        </div>
+      </div>
+    </section>
+    <!-- detail des -->
+    <section class="detail-des">
+      <h1 class="section-title">Details</h1>
+      <p class="des">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis a cumque
+        voluptatem, tenetur possimus provident obcaecati earum architecto
+        consequuntur at numquam expedita nihil, esse blanditiis. Illum non
+        officiis laborum sequi, eos impedit praesentium tempore blanditiis
+        suscipit iusto! Magni, velit nisi. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Enim ratione molestiae reprehenderit! Ex
+        impedit voluptatum eaque. Doloribus deserunt possimus rem sit
+        praesentium saepe expedita illo libero voluptatum, odit magnam itaque
+        dolorum ea suscipit labore dicta nemo earum unde? Dolore, magni.<br /><br />Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Rem, non. Aut ipsa
+        quo quod adipisci magnam eius cum commodi eum, cumque a explicabo
+        voluptatem, deleniti dolor? Voluptatibus vero cupiditate ipsa earum
+        magni quo nulla, vitae atque deserunt, et, fugiat explicabo. Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit. Id eum reiciendis deserunt
+        consequatur molestias beatae enim iste quia laborum! Voluptate alias et
+        aspernatur sint labore, fugiat magni esse quidem exercitationem, optio
+        laboriosam laborum dicta voluptas cupiditate nemo quis iure deleniti.
+      </p>
+    </section>
+    <!-- review -->
+    <section class="review-section">
+      <h1 class="review-title">Reviews</h1>
+      <div class="review-container">
+        <div class="review-card">
+          <div class="user-dp" data-rating="4.9">
+            <img src="img/user 1.png" alt="image not found" />
+          </div>
+          <h2 class="section-title">Best quality more than my expectation</h2>
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            numquam fuga aliquid iste, quod esse ad quia autem odit adipisci.
+          </p>
+        </div>
+        <div class="review-card">
+          <div class="user-dp" data-rating="4.9">
+            <img src="img/user 2.png" alt="image not found" />
+          </div>
+          <h2 class="section-title">On time delivery with best packaging</h2>
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            numquam fuga aliquid iste, quod esse ad quia autem odit adipisci.
+          </p>
+        </div>
+        <div class="review-card">
+          <div class="user-dp" data-rating="4.9">
+            <img src="img/user 3.png" alt="image not found" />
+          </div>
+          <h2 class="section-title">Very helpful customer support</h2>
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            numquam fuga aliquid iste, quod esse ad quia autem odit adipisci.
+          </p>
+        </div>
+        <div class="review-card">
+          <div class="user-dp" data-rating="4.9">
+            <img src="img/user 4.png" alt="image not found" />
+          </div>
+          <h2 class="section-title">Best quality more than my expectation</h2>
+          <p class="review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            numquam fuga aliquid iste, quod esse ad quia autem odit adipisci.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- add review -->
+    <section class="add-review-section">
+        <h1 class="section-title">Give review</h1>
+        <input type="text" class="review-headline" placeholder="review headline">
+        <textarea placeholder="review" class="review-field"></textarea>
+        <p class="rating-text">How much you liked the product</p>
+        <div class="star-container">
+            <img class="rating-star" src="img/no fill star.png" alt="" />
+          <img class="rating-star" src="img/no fill star.png" alt="" />
+
+          <img class="rating-star" src="img/no fill star.png" alt="" />
+
+          <img class="rating-star" src="img/no fill star.png" alt="" />
+          <img class="rating-star" src="img/no fill star.png " alt="" />
+        </div>
+        <button class="add-review-btn">Add review</button>
+
+    </section>
+    <section class="best-selling-section">
+      <h1 class="selling-section">Similar Products</h1>
+      <div class="product-container">
+        <div class="product-card">
+          <img
+            src="img/product-1.png"
+            alt="image not found"
+            class="product-image"
+          />
+          <p class="product-name">Lights ➡️</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="img/product-2.png"
+            alt="image not found"
+            class="product-image"
+          />
+          <p class="product-name">table ➡️</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="img/product-3.png"
+            alt="image not found"
+            class="product-image"
+          />
+          <p class="product-name">storage ➡️</p>
+        </div>
+        <div class="product-card">
+          <img
+            src="img/product-4.png"
+            alt="image not found"
+            class="product-image"
+          />
+          <p class="product-name">sofa ➡️</p>
+        </div>
+      </div>
+    </section>
+    <footer>MADE BYE MKD</footer>
+    <script src="js/projuct.js"></script>
+  </body>
+</html>
