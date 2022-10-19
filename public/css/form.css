@@ -42,7 +42,7 @@
     font-size: 35px;
     margin-bottom: 20px;
 }
-input{
+input,textarea{
     width: 100%;
     height: 40px;
     border: 1px solid #b9b9b9;
@@ -64,10 +64,10 @@ input::-webkit-inner-spin-button{
     margin: 0;
 
 }
-input:focus{
+input:focus, textarea:focus{
     border: 2px solid #d5be8b;
 }
-input:focus::placeholder{
+input:focus::placeholder,textarea:focus::placeholder{
     color: #d5be8b;
 }
 .error{
