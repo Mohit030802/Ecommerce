@@ -76,6 +76,9 @@ app.get('/seller',(req,res)=>{
 app.get('dashboard',(req,res)=>{
     res.sendFile("dashboard.html",{root:"public"})
 })
+app.get('/add-product',(req,res)=>{
+    res.sendFile("add-product.html",{root:"public"})
+})
 // 404
 app.get('/404',(req,res)=>{
     res.sendFile("404.html",{root:"public"})

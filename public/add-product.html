@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <links
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/add-product.css">
+    <title>Add Product Page</title>
+  </head>
+  <body>
+    <h1 class="title">Add Product</h1>
+    <section class="product-section">
+      <div class="image-upload-container">
+        <input type="file" id="upload-image" accept="image/png,image/jpeg" hidden>
+        <label for="upload-image" class="upload-overlay">upload Image</label>   
+        <img  class="product-img"> 
+    </div>
+      <div class="product-detail">
+        <h1 class="product-title" contenteditable="true" data-placeholder="product name">Premium sofa</h1>
+        <p class="product-des" contenteditable="true" data-placeholder="Short Description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae beatae
+          sapiente quibusdam similique, et eius.
+        </p>
+        <div class="rating disable">
+          <img class="star" src="img/fill star.png" alt="" />
+          <img class="star" src="img/fill star.png" alt="" />
+
+          <img class="star" src="img/fill star.png" alt="" />
+
+          <img class="star" src="img/fill star.png" alt="" />
+          <img class="star" src="img/no fill star.png " alt="" />
+          <span class="rating-count">4093 reviews</span>
+        </div>
+        <p class="price" contenteditable="true" data-placeholder="price without $"></p>
+        <div class="btn-container disable">
+          <button class="product-btn buy-btn">Buy Now</button>
+          <button class="product-btn cart-btn">Add to cart</button>
+        </div>
+      </div>
+    </section>
+    <!-- detail des -->
+    <section class="detail-des">
+      <h1 class="des-title">Details</h1>
+      <p class="des" contenteditable="true" data-placeholder="details">
+        
+      </p>
+    </section>
+    <section class="tags-section">
+        <h1 class="section-title">Tags</h1>
+        <p class="text">Enter some tags related to product this will help in searching the product.
+            Give comma seperated tags. 
+        </p>
+        <p class="tags" contenteditable="true" data-placeholder="details">
+          3 tags atleast
+        </p>
+      </section>
+   
+   
+    <div class="btn-wrapper">
+        <button class="product-btn add-product-btn" >Add Product</button>
+        <button class="product-btn draft-btn">Save Draft</button>
+    </div>
+    
+    <script src="js/add-product.js"></script>
+  </body>
+</html>
