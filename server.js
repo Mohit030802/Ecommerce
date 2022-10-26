@@ -4,6 +4,8 @@ const app=express();
 // middleware
 app.use(express.static("public"))
 app.use(express.json());
+import aws from 'aws-sdk';
+import "dotenv/config";  
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getFirestore,doc,collection,getDoc,setDoc,updateDoc} from "firebase/firestore"

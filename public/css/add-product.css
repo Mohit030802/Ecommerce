@@ -80,3 +80,19 @@ body{
     margin: 20px 0;
     font-family: 'lato',sans-serif;
 }
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.add-product-btn{
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #d5be8b;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.draft-btn{
+    background: #cacaca ;
+}

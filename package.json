@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Mohit030802/Ecommerce#readme",
   "dependencies": {
+    "aws-sdk": "^2.1240.0",
     "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.3",
     "express.js": "^1.0.0",
     "firebase": "^9.10.0",
     "nodemon": "^2.0.20"
